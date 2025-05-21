@@ -1,0 +1,110 @@
+.footer {
+  background-color: #3a5550;
+  color: #f4ae31;
+  padding: 40px 20px 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* ← Centraliza as colunas */
+  align-items: flex-start;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logoColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  text-align: right;
+  gap: 0.5rem; /* espaço entre logo e texto */
+}
+
+.column {
+  flex: 1 1 220px;
+  min-width: 200px;
+}
+
+.footerLogo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #f4ae31;
+  margin-top: 0.3rem;
+  max-width: 200px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.description {
+  font-size: 0.9rem;
+}
+
+.sectionTitle {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  text-align: center; /* ← Isso centraliza a palavra "Navegação" */
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* ← Isso centraliza os itens da lista */
+}
+
+
+.navItem {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.navItem:hover {
+  text-decoration: underline;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.bottomBar {
+  text-align: center;
+  padding: 1rem 0 0.5rem;
+  font-size: 0.85rem;
+  margin-top: 2rem;
+}
+
+.separator {
+  width: 1px;
+  background-color: #f4ae31;
+  opacity: 0.6;
+  margin: 0 1rem;
+  align-self: stretch;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .navList {
+    text-align: center;
+  }
+}
+
+
