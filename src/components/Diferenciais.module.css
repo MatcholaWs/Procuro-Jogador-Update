@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 1.5rem;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .icon {
+    font-size: 2.5rem;
+    color: #3a5550;
+    margin-bottom: 0.8rem;
+  }
+  
+  .titulo {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #3a5550;
+  }
+  
+  .descricao {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .cardVitrine {
+    background-color: #3a5550;
+    color: white;
+  }
+  
+  .cardTradicao {
+    background-color: #f4ae31;
+    color: white;
+  }
+  
+  .cardModerno {
+    background-color: #3a5550;
+    color: white;
+  }
+  
